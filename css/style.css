@@ -1,10 +1,43 @@
-@media only screen and (max-width: 768px) {
+@media(max-width: 768px) {
   /* For mobile phones: */
   .deskripsi{
     padding-right: 1rem !important;
    
   }
+  .commongambar{
+    width: 100% !important; 
+  }
  
+}
+@media (max-width: 576px) {
+  .navresp {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    text-align: center;
+    margin-top: 55px;
+  }
+  .logo{
+    margin-left: 160px !important;
+  }
+  .baris{
+    margin: 0 !important;
+  }
+  .judul{
+    font-size: 25px !important;
+    padding: 30px;
+    padding-bottom: 0 !important;
+  }
+  .deskripsi{
+    font-size: 18px !important;
+    padding: 30px;
+    padding-top: 0 !important;
+    padding-bottom: 0;
+  }
+  .historybtn{
+    margin: 30px;
+    margin-top: 0;
+    width: 50%;
+  }
 }
 @font-face{
       font-family: 'Open-Sans';
@@ -73,3 +106,6 @@ section{
 .deskripsi{
   padding-right: 5rem;
 } 
+.commongambar{
+  width: 30%;
+}
