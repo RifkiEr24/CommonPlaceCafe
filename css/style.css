@@ -1,0 +1,75 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .deskripsi{
+    padding-right: 1rem !important;
+   
+  }
+ 
+}
+@font-face{
+      font-family: 'Open-Sans';
+      src: url('../font/opensans-regular.woff2') format('woff2'),
+           url('../font/opensans-regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face{
+      font-family: 'Product-Sans';
+      src: url('../font/product_sans_regular.woff2') format('woff2'),
+           url('../font/product_sans_regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: black; 
+      border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #211f20; 
+    }
+  html{
+      scroll-behavior: smooth;
+      user-select: none;
+  }
+body{
+   overflow-x: hidden;
+    margin: 0;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+
+.ps{
+font-family: 'Product-Sans';
+}
+
+.arrow{
+    width: 4%; 
+    margin-top: 225px;
+    transition: 1s;
+}
+.arrow:hover{
+    margin-top: 250px;  
+}
+.alamat{
+  font-family:'times new roman'; 
+  margin-top: 20px;
+}
+section{
+  height: 100vh;
+}
+.deskripsi{
+  padding-right: 5rem;
+} 
