@@ -5,6 +5,9 @@
       <meta http-equiv='X-UA-Compatible' content='IE=edge'>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
         <script src="js/anime.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="stylesheet" href="css/aos.css" type="text/css">
@@ -13,10 +16,32 @@
     </head>
     <body style="width: auto; height: auto;">
 <section  id="section" style="width: 100%; background-image: url(img/LRM_EXPORT_228981131649471_20200218_171642295.jpg); background-size: cover;">
-    <a class="navbar-brand" href="#">
-        <img src="img/logo.png" class="logo" style=" position: absolute; margin: 20px;" width="60" height="60" alt="">
-      </a>
-    <ul class="nav navresp justify-content-end " style="padding: 10px 30px;"> 
+   
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" width="60" height="60" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav navresp" style="margin-left: 60rem;">
+            <li class="nav-item active">
+              <a class="nav-link text-light ps" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light ps" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light ps" href="#">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light ps" href="#" tabindex="-1" aria-disabled="false">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- <ul class="nav navresp justify-content-end " style="padding: 10px 30px;"> 
         <li class="nav-item" >
           <a class="nav-link text-light ps" href="#">Menu</a>
         </li>
@@ -29,7 +54,7 @@
         <li class="nav-item">
           <a class="nav-link text-light ps" href="#" >Contact</a>
         </li>
-      </ul>
+      </ul> -->
 <div class="row mr-0 baris" style="margin-top: 100px;">
 
 <div class="col-xs-12 col-sm-12 col-md-12 ">
@@ -52,10 +77,67 @@
 <p class="ps text-light judul" data-aos="fade-down"  data-aos-offset="350" style="font-size: 35pt; margin-top: 65px;">COMMON PLACE COFFEE</p>
 <p class="text-light text-justify deskripsi" data-aos="fade-right"  data-aos-offset="350">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat risus et ornare pharetra. Proin bibendum sagittis pellentesque. Donec ac auctor dolor. Quisque dui ipsum, iaculis vitae lectus sit amet, sollicitudin gravida ante. Aenean nec malesuada tellus. Donec vestibulum massa nulla, eget tempus sem vehicula quis. Maecenas placerat mi dui.
   Sed vel mi mi. Praesent hendrerit felis vel neque scelerisque, eget iaculis ligula lacinia.</p>
-  <button type="button" class="btn btn-outline-light historybtn" style="transition: 1s ;">Our History</button>
+  <button type="button" data-aos="fade-up" data-aos-offset="50" class="btn btn-outline-light historybtn" style="transition: 1s ;">Our History</button>
 </div>
   </div>
 
+</section>
+<section style="height: 250vh;"> 
+<p class="ps text-light fontheader text-center">Our Menu</p>
+<div class="row fluid-container">
+  <div class="col-md-3 col-xs-12">
+    <center>
+    <img src="img/coffee.png" style="width: 30%;">
+    <p class="ps text-light fontheader2 p-3" style="padding-bottom: 0 !important;">Coffee</p>
+    <p class="ps text-light fontbody p-2" style="padding-top: 0 !;">
+ Lorem ipsum dolor sit amet,
+  consectetur adipiscing elit.
+   Etiam tristique, lorem vel 
+   ullamcorper facilisis, tortor
+    magna tempus justo, non posuere 
+    elit dui id sapien. Aliquam.</p>
+  </center>
+  </div>
+  <div class="col-md-3 col-xs-12">
+    <center>
+      <img src="img/tea.png" style="width: 30%;">
+      <p class="ps text-light fontheader2 p-3" style="padding-bottom: 0 !important;">Tea</p>
+      <p class="ps text-light fontbody p-2" style="padding-top: 0 !;">
+   Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit.
+     Etiam tristique, lorem vel 
+     ullamcorper facilisis, tortor
+      magna tempus justo, non posuere 
+      elit dui id sapien. Aliquam.</p>
+    </center>
+  </div>
+  <div class="col-md-3 col-xs-12">
+    <center>
+      <img src="img/coklat.png" style="width: 30%;">
+      <p class="ps text-light fontheader2 p-3" style="padding-bottom: 0 !important;">Signature Chocolate</p>
+      <p class="ps text-light fontbody p-2" style="padding-top: 0 !;">
+   Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit.
+     Etiam tristique, lorem vel 
+     ullamcorper facilisis, tortor
+      magna tempus justo, non posuere 
+      elit dui id sapien. Aliquam.</p>
+    </center>
+  </div>
+  <div class="col-md-3 col-xs-12">
+    <center>
+      <img src="img/rice.png" style="width: 30%;">
+      <p class="ps text-light fontheader2 p-3" style="padding-bottom: 0 !important;">Rice Bowl</p>
+      <p class="ps text-light fontbody p-2" style="padding-top: 0 !;">
+   Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit.
+     Etiam tristique, lorem vel 
+     ullamcorper facilisis, tortor
+      magna tempus justo, non posuere 
+      elit dui id sapien. Aliquam.</p>
+    </center>
+  </div>
+</div>
 </section>
 <script src="js/main.js"></script>
     </body>

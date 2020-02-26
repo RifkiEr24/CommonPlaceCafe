@@ -11,10 +11,7 @@
 }
 @media (max-width: 576px) {
   .navresp {
-    -ms-flex-direction: column !important;
-    flex-direction: column !important;
-    text-align: center;
-    margin-top: 55px;
+   margin-left: 0 !important;
   }
   .logo{
     margin-left: 160px !important;
@@ -102,10 +99,20 @@ font-family: 'Product-Sans';
 }
 section{
   height: 100vh;
+  background-color: black;
 }
 .deskripsi{
   padding-right: 5rem;
 } 
 .commongambar{
   width: 30%;
+}
+.fontheader{
+  font-size: 35pt;
+}
+.fontheader2{
+  font-size: 15pt;
+}
+.fontbody{
+  font-size: 18px;
 }
