@@ -343,7 +343,7 @@ progress {
 }
 
 output {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 summary {
@@ -7836,7 +7836,9 @@ button.bg-dark:focus {
 .shadow-none {
   box-shadow: none !important;
 }
-
+.w-10 {
+  width: 10% !important;
+}
 .w-25 {
   width: 25% !important;
 }
@@ -8057,6 +8059,14 @@ button.bg-dark:focus {
   margin-left: 3rem !important;
 }
 
+.ml-6,
+.mx-6 {
+  margin-left: 5.6rem !important;
+}
+.ml-7,
+.mx-7 {
+  margin-left: 9.3rem !important;
+}
 .p-0 {
   padding: 0 !important;
 }
