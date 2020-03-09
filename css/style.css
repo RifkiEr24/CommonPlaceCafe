@@ -60,6 +60,12 @@
 .alamatinfo{
   margin: 0 !important;
 }
+#section4{
+  height: 120vh !important;
+}
+#section5{
+  height: 200vh !important;
+}
 }
 @font-face{
       font-family: 'Open-Sans';
@@ -193,4 +199,12 @@ section{
   position: absolute; 
   margin-top: 45px; left: 0; 
   margin-left: 82.5px;
+}
+#section4{
+  background-color: black; 
+  height: 100vh;
+}
+#section5{
+  background-color: black;
+  height:45vh;
 }
