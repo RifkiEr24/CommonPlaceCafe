@@ -1,11 +1,5 @@
 AOS.init();
-anime({
-    targets: '.arrow',
-    translateY: 100,
-    easing:'easeInOutSine',
-    loop:true,
-    direction: 'alternate',
-  });
+
 function getOS() {
   var userAgent = window.navigator.userAgent,
       platform = window.navigator.platform,
@@ -29,7 +23,7 @@ function getOS() {
   return os;
 }
 
-alert(getOS());
+
 if(getOS()=='Windows'){
   $('a#mylink').attr('href', 'https://gofood.co.id/english/bandung/restaurant/commonplace-cimahi-b47272ec-c880-489e-8210-650c0eb44dea');
 }else if(getOS()=='Android'){
