@@ -1,6 +1,5 @@
-  /* For Tablet: */
 @media(max-width: 768px) {
-
+  /* For mobile phones: */
   .deskripsi{
     padding-right: 1rem !important;
    
@@ -10,8 +9,24 @@
   }
  
 }
-/* buat hape */
 @media (max-width: 576px) {
+  .judulhistory{
+    margin-top: 0 !important;
+  }
+  .sectionmenu{
+    height:1130vh !important;
+  }
+  .gambarmenu{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 3rem !important;
+  }
+  .tulisanmenu{
+    margin-left: 3rem !important;
+  }
+  .tulisanmenu.menuharga{
+    margin-left: 7.2rem !important;
+  }
   .sosial{
     width: 20% !important;
   }
@@ -85,7 +100,7 @@
   height: 120vh !important;
 }
 #section5{
-  height: 170vh !important;
+  height: 180vh !important;
 }
 }
 @font-face{
@@ -109,9 +124,7 @@
     font-weight: normal;
     font-style: normal;
 }
-a{
-  text-decoration: none !important;
-}
+
     /* Track */
     ::-webkit-scrollbar-track {
       box-shadow: inset 0 0 5px grey; 
@@ -141,7 +154,10 @@ body{
     width: 15px;
   }
   
-
+p{
+  margin: 0;
+  padding: 0;
+}
 .ps{
 font-family: 'Product-Sans';
 }
@@ -170,8 +186,11 @@ section{
 .fontheader{
   font-size: 35pt;
 }
-.fontheader2{
+.fontheader3{
   font-size: 15pt;
+}
+.fontheader2{
+  font-size: 25pt;
 }
 .fontbody{
   font-size: 18px;
@@ -230,4 +249,23 @@ section{
 #section5{
   background-color: black;
   height:45vh;
+}
+.tulisanmenu{
+  margin-left: 15rem;
+}
+.tulisanmenu.menuharga{
+  margin-left: 19rem;
+}
+.gambarmenu{
+  border-radius: 35px;
+  width: 75%;
+  transition: 1s;
+  padding: 1.5rem;
+}
+.gambarmenu.affogato{
+  margin-left: 95px;
+}
+.gambarmenu:hover{
+  padding: 2.5rem;
+  border-radius: 35px !important;
 }
