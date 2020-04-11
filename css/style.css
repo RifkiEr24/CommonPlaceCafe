@@ -9,7 +9,18 @@
   }
  
 }
+@media(max-width: 1080px) {
+  /* For mobile phones: */
+ .navresp{
+   margin-left: 50rem !important;
+ }
+ 
+}
 @media (max-width: 576px) {
+  .kontak{
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
   .judulhistory{
     margin-top: 0 !important;
   }
